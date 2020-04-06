@@ -17,6 +17,6 @@ const getQuote = () => {
     )
 }
 
+document.getElementById('bttn').addEventListener('click', () => getQuote())
 
 getQuote()
-
